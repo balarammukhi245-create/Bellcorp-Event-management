@@ -10,7 +10,8 @@ import { errorMiddleware } from "./middleware/error.middleware.js";
 const app = express();
 
 app.use(cors({
-  origin:"https://bellcorp-event-management-git-main-balarams-projects-0068db27.vercel.app",
+  // origin:"https://bellcorp-event-management-git-main-balarams-projects-0068db27.vercel.app"
+  origin: "http://localhost:5173",
   credentials: true,
 }));
 
